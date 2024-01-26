@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .red {
+        background-color: red;
+      }
+
+      .aqua {
+        background-color: aqua;
+      }
+      .navbar {
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .logo {
+        width: 10em;
+        height: 4em;
+        mix-blend-mode: multiply;
+        /* padding: 0 0 5px 0; */
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      h4 {
+        padding: 0.5em;
+      }
+      .main {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* padding: 10px 0 10px 0; */
+        margin: 20px 0 10px 0;
+      }
+      .wallpaper {
+        width: 500px;
+        height: 300px;
+        border-radius: 5px;
+      }
+      .paragraph {
+        padding: 0 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: flex-start; */
+      }
+      p {
+        padding-bottom: 20px;
+      }
+      .footer {
+        width: 100vw;
+        height: 8vh;
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="red navbar">
+      <img class="logo" src="john wick.jpg" alt="john wick gun logo" />
+      <div class="menu">
+        <h4>Home</h4>
+        <h4>
+          Movies
+          <!-- <select name="chapter" id="">
+            <option value="1">Chapter 1</option>
+          <option value="1">Chapter 2</option>
+          <option value="1">Chapter 3</option>
+          <option value="1">Chapter 4</option>
+          </select> -->
+        </h4>
+        <h4>About</h4>
+        <h4>Reviews</h4>
+        <h4>Help</h4>
+      </div>
+    </nav>
+    <main class="main">
+      <img class="wallpaper" src="wallpaper.webp" alt="wallpaper" />
+      <div class="paragraph">
+        <p>
+          The John Wick franchise includes American neo-noir action thriller
+          multimedia installments, created by Derek Kolstad and centered around
+          the titular character, a former hitman who is drawn back into the
+          criminal underworld he had previously abandoned.
+        </p>
+        <p>
+          The franchise began with the release of John Wick in 2014, followed by
+          three sequels: Chapter 2 in 2017, Chapter 3 – Parabellum in 2019, and
+          Chapter 4 in 2023.[1][2] The franchise has various spin-offs in
+          development, beginning with the limited series The Continental: From
+          the World of John Wick debuting in 2023, and the film Ballerina
+          releasing in 2024.[3] The films have received critical acclaim and
+          earned a collective gross of more than $1 billion worldwide.
+        </p>
+      </div>
+    </main>
+    <footer class="aqua footer"></footer>
+  </body>
+</html>
